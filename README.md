@@ -11,7 +11,7 @@ Made to be used as a tiny utility for displaying random jokes in desktop notific
 This will copy the script to ~/.local/bin/joke and make it executable.
 Make sure ~/.local/bin is in your PATH if you want to use it without the full path.
 ```sh
-curl https://github.com/shren7/russian_jokes/joke > ~/.local/bin/joke
+curl https://raw.githubusercontent.com/shren7/russian_jokes/refs/heads/main/joke > ~/.local/bin/joke
 chmod +x ~/.local/bin/joke
 ```
 
